@@ -1,15 +1,15 @@
 
-const display = document.getElementById
+  const display = document.getElementById
   ('display');
-const clearButton = document.getElementById
+  const clearButton = document.getElementById
   ('clear');
-const deleteButton = document.getElementById
+  const deleteButton = document.getElementById
   ('delete');
-const equalsButton = document.getElementById
+  const equalsButton = document.getElementById
   ('equals');
-const numberButton = document.querySelectorAll
+  const numberButton = document.querySelectorAll
   ('#zero,#one,#two,#three,#four,#five,#six,#seven,#eight,#nine');
-const operatorButtons = document.querySelectorAll 
+  const operatorButtons = document.querySelectorAll 
   ('#plus,#minus,#multiply,#divide');
 
 
@@ -22,5 +22,6 @@ const operatorButtons = document.querySelectorAll
      currentNumber += button.textContent;
      display.value = currentNumber;
     });
-   });
+    
+});
    
